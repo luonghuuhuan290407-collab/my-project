@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.container {
+    width: 85%;
+    margin: 15px auto;
+    padding: 25px;
+    background-color: #F8F1DF;
+}
+h2 {
+    text-align: center;
+    color: #E65100;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.image {
+    width: 30%;
+    text-align: center;
+}
+.image img {
+    max-width: 100%;
+}
+.table-box {
+    width: 70%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Georgia, serif;
+    background-color: white;
+}
+th {
+    background-color: #E65100;
+    color: #FFFFFF;
+    padding: 9px;
+    text-align: left;
+}
+th:first-child {
+    width: 80px;
+    text-align: center;
+}
+td {
+    padding: 8px;
+    border-bottom: 1px solid #E0D6C2;
+}
+td:first-child {
+    text-align: center;
+}
+/*  TÔ MÀU XEN KẼ CÁC DÒNG */
+tr:nth-child(even) {
+    background-color: #FDF8EF;
+}
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
