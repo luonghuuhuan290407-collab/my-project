@@ -1,64 +1,63 @@
-body {
+body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
 }
-.container {
+.container{
     width: 85%;
     margin: 15px auto;
     padding: 25px;
-    background-color: #F8F1DF;
+    background-color: #f8f1df;
 }
-h2 {
+h1{
     text-align: center;
-    color: #E65100;
-    font-family: Georgia, serif;
-    font-size: 26px;
+    color: #e65100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 20px;
 }
-.content {
+.content{
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.image {
+.img{
     width: 30%;
     text-align: center;
 }
-.image img {
+.img img{
     max-width: 100%;
 }
-.table-box {
+.table-box{
     width: 70%;
 }
-table {
+table{
     width: 100%;
     border-collapse: collapse;
-    font-family: Georgia, serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: white;
 }
-th {
-    background-color: #E65100;
-    color: #FFFFFF;
-    padding: 9px;
+th{
+    background-color: #e65100;
+    color: #ffffff;
+    padding: 10px;
     text-align: left;
 }
-th:first-child {
+th:first-child{
     width: 80px;
     text-align: center;
 }
-td {
+td{
     padding: 8px;
-    border-bottom: 1px solid #E0D6C2;
+    border-bottom: 1px solid#e0d6c2;
 }
-td:first-child {
+td:first-child{
     text-align: center;
 }
-/*  TÔ MÀU XEN KẼ CÁC DÒNG */
-tr:nth-child(even) {
-    background-color: #FDF8EF;
+tr:nth-child(even){
+    background-color: #fdf8ef;
 }
-tr:nth-child(odd) {
-    background-color: #FFFFFF;
+tr:nth-child(old){
+    background-color: #ffffff;
 }
